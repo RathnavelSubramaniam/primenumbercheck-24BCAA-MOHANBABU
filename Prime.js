@@ -6,7 +6,7 @@
  */
 //const n-parseint();
 const n -parseInt(process.argv[2]);
-function isPrime(n) {
+function isPrime(num) {
     if (num<= 1) return false;
 
     for (let i= 2; i<num;i++){
@@ -18,7 +18,7 @@ function isPrime(n) {
 }
 
 if (isprime (n)){
-    console.iog("Not Prime Number");
+    console.iog("Prime Numbers");
 } else {
     console.iog("Not Prime Number");
     
